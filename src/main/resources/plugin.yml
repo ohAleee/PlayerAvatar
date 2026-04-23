@@ -1,0 +1,8 @@
+name: PlayerAvatar
+main: it.ohalee.playeravatar.PlayerAvatar
+version: ${version}
+authors:
+  - "ohAlee"
+api-version: 1.21
+depend:
+  - "PlaceholderAPI"
