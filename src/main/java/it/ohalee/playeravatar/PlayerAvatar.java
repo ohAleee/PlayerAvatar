@@ -68,6 +68,7 @@ public class PlayerAvatar extends JavaPlugin {
         HttpRequest request = HttpRequest.newBuilder()
                 .uri(URI.create(String.format(AVATAR_URL, uuid)))
                 .timeout(Duration.ofSeconds(10))
+                .header("User-Agent", "PlayerAvatar/1.0")
                 .GET()
                 .build();
 
